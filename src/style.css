@@ -1,0 +1,123 @@
+body {
+  background-color: #e0e0e0;
+  columns: #707070;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.cardBg {
+  width: 600px;
+}
+
+.back-card {
+  border-radius: 55px !important;
+}
+
+.city-name {
+  position: absolute;
+  width: 100%;
+}
+
+.city-name p {
+  font-size: 3em;
+  font-weight: 900;
+  color: #2c3e50;
+}
+
+.city-name span {
+  font-weight: 400;
+  font-size: 50px;
+  position: relative;
+  top: -16px;
+  line-height: -4;
+  color: #2c3e50;
+}
+
+.temp span {
+  font-weight: 60;
+  font-size: 5em;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+
+.card-mid {
+  line-height: 0.5;
+}
+
+.cond {
+  line-height: 1em;
+  font-weight: 600;
+  font-size: 18pt;
+  text-transform: capitalize;
+}
+
+.high {
+  color: #e55039;
+  font-weight: 700;
+}
+
+.high::before {
+  content: "";
+  background: url("../img/up.svg") no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.low {
+  color: #6a89cc;
+  font-weight: 700;
+}
+
+.low::before {
+  content: "";
+  background: url("../img/down.svg") no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.icon-container {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background-color: #7f8fa6;
+}
+
+.icon-container img {
+  margin: auto;
+}
+
+.card-buttom {
+  line-height: 0.5;
+}
+
+.card-buttom span {
+  font-size: 1em;
+}
+
+.card-buttom p {
+  font-size: 3em;
+  letter-spacing: -2px;
+}
+
+.table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.buttom-container {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
